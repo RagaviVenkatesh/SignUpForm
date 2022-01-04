@@ -1,0 +1,58 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2015/01/07/16/37/wood-591631__340.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    background-color: lavender;
+    border-radius: 5px;
+    padding: 80px;
+    width: 30%;
+    margin: 10px;
+    margin-left: 530px;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+input[type=text], input[type=email], input[type=password], textarea, select{
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    border: 1px solid blueviolet;
+    padding: 10px;
+}
+
+button
+{
+    background-color: blueviolet;
+    color: white;
+    margin: 8px 0;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+label{
+    font-size: larger;
+    float: left;
+    display: block;
+    font-weight: 700;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    margin: 0 4px 8px 0;
+}
+
+h1{
+    text-align: center;
+}
+
+input[type=text]:hover, input[type=email]:hover, input[type=password]:hover, textarea:hover, select:hover{
+    border: 5px solid brown
+}
+
+input[type=text]:focus{
+    background-color: hotpink;
+    color: white;
+}

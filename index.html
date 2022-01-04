@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sign up Form</h1>
+    <div>
+    <form action="" method="GET" name="StudentData">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="student_name" placeholder="Type your name...">
+
+        <label for="mail">Email</label><br>
+        <input type="email" name="student_email" id="mail" placeholder="name@example.com">
+
+        <label for="password">Password</label><br>
+        <input type="password" name="student_password" id="password" placeholder="Password">
+
+        <label for="age">Age:</label><br><br>
+        <input type="radio" name="user_age" id="under_16">Under 16<br>
+        <input type="radio" name="user_age" id="over_16">16 or Older
+
+        
+        <h2>Your profile</h2>
+
+        <label for="bio">Biography</label><br>
+        <textarea name="student_bio" id="bio" cols="30" rows="10"></textarea>
+
+        <label for="courses">Select Courses</label><br>
+        <select name="student_courses" id="courses">
+            <optgroup label="Engineering">
+                <option value="computer_engineering">Computer Science Engineering</option>
+                <option value="electrical_engineering">Electrical Engineering</option>
+                <option value="mechanical_engineering">Mechanical Engineering</option>
+                <option value="civil_engineering">Civil Engineering</option>
+                <option value="chemical_engineering">Chemical Engineering</option>
+            </optgroup>
+            <optgroup label="Management">
+                <option value="finance_management">Finance Management</option>
+                <option value="technology_management">Technology</option>
+                <option value="marketing_management">Marketing</option>
+                <option value="business_management">Business</option>
+            </optgroup>
+        </select>
+
+        <label for="interest">Interests:</label><br>
+        <input type="checkbox" name="user_interest" id="java">JAVA
+        <input type="checkbox" name="user_interest" id="python">python
+        <input type="checkbox" name="user_interest" id="C++">C++
+        <input type="checkbox" name="user_interest" id="datascience">Data Science
+        <input type="checkbox" name="user_interest" id="ml">Machine Learning
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
